@@ -29,5 +29,7 @@ namespace ixpMyMobile.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<ixpMyMobile.Models.Item> Items { get; set; }
     }
 }
